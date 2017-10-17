@@ -115,11 +115,11 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     return;
   }
 /*
-  if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
-      cout << "Laser measurement...skip" << endl;
+  if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
+      cout << "Radar measurement...skip" << endl;
       return;
   }
- */
+*/
   /*****************************************************************************
    *  Prediction
    ****************************************************************************/
